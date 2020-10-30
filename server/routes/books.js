@@ -49,7 +49,7 @@ router.post('/add', (req, res, next) => {
     /*****************
      * ADD CODE HERE *
      *****************/
-    let newBook = book({
+    let newBook = book({                    //set property
       "Title": req.body.title,
       "Description": req.body.description,
       "Price": req.body.price,
@@ -105,7 +105,7 @@ router.post('/:id', (req, res, next) => {
      *****************/
     let id = req.params.id
 
-    let updateBooks = book({
+    let updateBooks = book({                //set property
       "_id": id,
       "Title": req.body.title,
       "Description": req.body.description,
