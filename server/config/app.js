@@ -1,3 +1,9 @@
+/*File name : app.js
+  Author's name : Seol Cheon
+  Student ID : 301113120
+  Web site name : My Favourite Books
+  date : Oct 30, 2020 */
+
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');

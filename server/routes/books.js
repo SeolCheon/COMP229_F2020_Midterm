@@ -1,3 +1,9 @@
+/*File name : books.js
+  Author's name : Seol Cheon
+  Student ID : 301113120
+  Web site name : My Favourite Books
+  date : Oct 30, 2020 */
+
 // modules required for routing
 let express = require('express');
 let router = express.Router();

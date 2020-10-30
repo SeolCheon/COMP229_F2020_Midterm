@@ -1,3 +1,9 @@
+/*File name : server.js
+  Author's name : Seol Cheon
+  Student ID : 301113120
+  Web site name : My Favourite Books
+  date : Oct 30, 2020 */
+
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');

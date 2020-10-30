@@ -1,3 +1,9 @@
+/*File name : app.js
+  Author's name : Seol Cheon
+  Student ID : 301113120
+  Web site name : My Favourite Books
+  date : Oct 30, 2020 */
+
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
