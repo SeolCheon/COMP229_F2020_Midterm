@@ -2,6 +2,7 @@
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
+const { title } = require('process');
 const books = require('../models/books');
 
 // define the book model
@@ -82,7 +83,8 @@ router.get('/:id', (req, res, next) => {
             res.render('books/details', 
             {title: 'Edit Books',
             books: booksToEdit,
-            books: book
+            book: books,
+            
         });
         }
     });
