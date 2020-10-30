@@ -39,7 +39,7 @@ router.get('/add', (req, res, next) => {
      *****************/
     res.render('books/details', 
     {title: 'Add Books',
-     books: book});
+     books: book});               //books property is book model
 
 });
 
@@ -127,9 +127,6 @@ router.post('/:id', (req, res, next) => {
             res.redirect('/books');
         }
     });
-
-    
-    
 });
 
 
